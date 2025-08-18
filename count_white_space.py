@@ -7,4 +7,8 @@ def count_white_space(word):
             continue
     print(count)
 
+def count_white_space2(word):
+    print(word.count(' '))
+
 count_white_space('l i s t e n    ')
+count_white_space2('l i s t e n')
